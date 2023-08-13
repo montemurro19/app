@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.cards {
+  width: 984px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+app-card {
+  margin: 8px;
+}
